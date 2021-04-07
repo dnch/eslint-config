@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ["./src/node.js", "prettier"],
+  extends: ["./src/node.js"],
 };

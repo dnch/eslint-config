@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-dnch",
   "scripts": {
-    "lint": "eslint . && prettier --check .",
+    "lint": "eslint .",
     "prepare": "install-peers && husky install"
   },
   "version": "0.1.0",
@@ -19,10 +19,9 @@
     "confusing-browser-globals": "^1.0.10"
   },
   "devDependencies": {
-    "eslint-config-prettier": "^8.1.0",
+    "eslint": "^7.23.0",
     "husky": "^6.0.0",
     "install-peers-cli": "^2.2.0",
-    "prettier": "^2.2.1",
     "typescript": "^4.1.3"
   },
   "peerDependencies": {
